@@ -1,6 +1,6 @@
 import { Link,NavLink } from "react-router-dom";
 function Nav(){
-const mystyle={color:"grey",padding:"15px",fontSize:"25px"};
+// const mystyle={color:"grey",padding:"15px",fontSize:"25px"};
     return(
         <>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -18,6 +18,9 @@ const mystyle={color:"grey",padding:"15px",fontSize:"25px"};
       </li>
       <li class="nav-item">
       <NavLink  to='/Contact' style={({ isActive }) => (isActive ? {color: 'black',padding:"15px",fontSize:"25px"} : {color: 'grey',padding:"15px",fontSize:"25px"})}>Contact</NavLink>
+      </li>
+      <li class="nav-item">
+      <NavLink  to='/Card' style={({ isActive }) => (isActive ? {color: 'black',padding:"15px",fontSize:"25px"} : {color: 'grey',padding:"15px",fontSize:"25px"})}>Card</NavLink>
       </li>
      
     </ul>

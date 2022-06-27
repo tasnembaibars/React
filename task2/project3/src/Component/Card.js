@@ -8,7 +8,7 @@ class Card extends React.Component {
     //     // //  year:"third"
     //     // }
     // }
-    render() {
+    render(props) {
 
         return (
         <div>
