@@ -13,10 +13,10 @@ function App() {
     <Navbar/>
   <Routes>
     <Route path='/' element={<Home/>}  />
-    <Route path='about' element={<About/>}  />
+    <Route path='/about' element={<About/>}  />
     {/* <Route path='list' element={<MovieList/>}  /> */}
-    <Route path='movies' element={<Movies/>}/>
-    <Route path='single/:id' element={<Single/>}  />
+    <Route path='/movies' element={<Movies/>}/>
+    <Route path='/single/:id' element={<Single/>}  />
   </Routes>
   </BrowserRouter>
   );
